@@ -157,15 +157,15 @@ header p {
   color: #9cc9ff;
   text-decoration: none;
   margin: 0 20px;
-  font-size: 18px;          /* ✅ bigger text */
-  font-weight: bold;        /* ✅ stronger look */
+  font-size: 18px;          
+  font-weight: bold;        
   transition: all 0.3s ease;
 }
 
 .navbar a:hover {
   color: white;
   text-shadow: 0 0 10px rgba(0,150,255,1);
-  transform: scale(1.1);    /* ✅ slight zoom */
+  transform: scale(1.1);    
 }
 
 .content {
