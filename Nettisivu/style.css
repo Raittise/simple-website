@@ -5,13 +5,13 @@ body {
   color: white;
   text-align: center;
 
-  /* ✅ OPTIONAL global centering */
+  /* Yleiset keskitys */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* 🌟 Stars */
+/* Tähti animaatio */
 .stars {
   position: fixed;
   width: 100%;
@@ -26,7 +26,7 @@ body {
   to { background-position: 8000px 4000px; }
 }
 
-/* ✅ HEADER CENTERED */
+/* Hederin säätö keskelle */
 header {
   text-align: center;
   margin-top: 20px;
@@ -42,7 +42,7 @@ header p {
   font-size: 14px;
 }
 
-/* ✅ GRID (4 columns centered) */
+/* Grid kolumnien asettelu */
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -54,14 +54,14 @@ header p {
   width: 100%;
 }
 
-/* ✅ MOBILE: 2 columns */
+/* Toimii mobiilissa */
 @media (max-width: 600px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* ✅ PLANET CARDS CENTERED */
+/* Planeettojen korttien asettelu */
 .planet {
   text-decoration: none;
   color: white;
@@ -98,7 +98,7 @@ header p {
   font-size: 15px;
 }
 
-/* ✅ Fade animation */
+/* Fade animaatio */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -110,7 +110,7 @@ header p {
   }
 }
 
-/* ✅ MODAL FULL CENTER FIX */
+/* Ponnahdusikkunat keskitys */
 .modal {
   position: fixed;
   top: 0;
@@ -148,7 +148,7 @@ header p {
   text-decoration: none;
   border-radius: 5px;
 }
-/* 🌐 NAVIGATION BAR IMPROVED */
+/* Navigaatiopalkki siistiminen ja säätö */
 .navbar {
   margin: 20px;
 }
@@ -186,7 +186,6 @@ header p {
 .content p {
   line-height: 1.6;
 }
-/* 🌠 Page fade-in */
 body {
   animation: fadePage 0.6s ease-in;
 }
@@ -200,4 +199,14 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.top-image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+
+  box-shadow: 0 0 20px rgba(0, 150, 255, 0.4);
 }
